@@ -1,5 +1,5 @@
 const contentLetterSrart_actived = "Xin chào người bạn của tôi!" //Lời mở đầu cho bức thư
-const mainContentLetter = "Dù bạn không đẹp như là hoa hậu, không cao như là siêu mẫu, không hát hay như là ca sĩ hay không vẽ đẹp như là họa sĩ,… nhưng cậu chính là phiên bản duy nhất của chính mình trên thế gian này. Chúc bạn hiền tuổi 19 thật là vui vẻ và thật nhiều hạnh phúc." //Nội dung của bức thư
+const mainContentLetter = "Dù bạn không đẹp như là hoa hậu, không cao như là siêu mẫu, không hát hay như là ca sĩ hay không vẽ đẹp như là họa sĩ, đặc biệt là mập hehehehe … nhưng cậu chính là phiên bản duy nhất của chính mình trên thế gian này. Chúc bạn hiền tuổi 19 thật là vui vẻ và thật nhiều hạnh phúc !!!!" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
@@ -111,3 +111,8 @@ function createLight(a) {
 $scope.redirect = function(){
     $location.url('/slide.html');
   }
+function hienThiTheMoi() {
+    setTimeout(function() {
+        document.getElementById("newElement").style.display = "block";
+    }, 5000); // 8000ms = 8s
+}

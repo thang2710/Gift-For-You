@@ -19,8 +19,8 @@ $(document).ready(function() {
   });
  function ketThucHanhdong() {
     setTimeout(function() {
-      window.location.href = 'slide.html'; // Thay đổi URL đích của bạn
-    }, 6000); // 10000 milliseconds = 10 giây
+      window.location.href = '3DPicture.html'; // Thay đổi URL đích của bạn
+    }, 8000); // 10000 milliseconds = 10 giây
   }
   
   // Gọi hàm khi hành động kết thúc (thay thế dòng này bằng hành động cụ thể của bạn)
