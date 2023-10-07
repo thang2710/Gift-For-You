@@ -6,6 +6,9 @@ $(document).ready(function() {
           var randDegree = Math.floor(Math.random() * 1800) + 1;
       var totalDegree = spins * 1800 + randDegree;
           $('#wheel').css({'transform' : 'rotate(' + totalDegree + 'deg)'});
+          setTimeout(function() {
+            window.location.href = '3DPicture.html'; // Thay đổi URL đích của bạn
+          }, 9000);
       });
     
     $('.fa-heart').click(function() {
@@ -17,11 +20,3 @@ $(document).ready(function() {
     })
   
   });
- function ketThucHanhdong() {
-    setTimeout(function() {
-      window.location.href = '3DPicture.html'; // Thay đổi URL đích của bạn
-    }, 9000); // 10000 milliseconds = 10 giây
-  }
-  
-  // Gọi hàm khi hành động kết thúc (thay thế dòng này bằng hành động cụ thể của bạn)
-  ketThucHanhdong();
