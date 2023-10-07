@@ -8,7 +8,7 @@ $(document).ready(function() {
           $('#wheel').css({'transform' : 'rotate(' + totalDegree + 'deg)'});
           setTimeout(function() {
             window.location.href = '3DPicture.html'; // Thay đổi URL đích của bạn
-          }, 9000);
+          }, 8000);
       });
     
     $('.fa-heart').click(function() {
